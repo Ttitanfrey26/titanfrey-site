@@ -84,6 +84,30 @@
       font-size: 1em;
       line-height: 1.6;
     }
+    .featured-box {
+      background-color: #1a1a1a;
+      padding: 20px;
+      border-left: 5px solid #ffa500;
+      box-shadow: 0 2px 5px rgba(255,165,0,0.1);
+    }
+    .featured-box p {
+      font-size: 1.1em;
+      color: #ffcc80;
+      margin-bottom: 15px;
+    }
+    .featured-box a {
+      display: inline-block;
+      background-color: #ffa500;
+      color: #0d0d0d;
+      padding: 10px 15px;
+      border-radius: 5px;
+      font-weight: bold;
+      text-decoration: none;
+      transition: background-color 0.3s ease;
+    }
+    .featured-box a:hover {
+      background-color: #ffcc80;
+    }
     footer {
       background-color: #000;
       color: #999;
@@ -123,20 +147,17 @@
     <a href="articles.html">Articles</a>
     <a href="videos.html">YouTube Videos</a>
   </nav>
-<section>
-  <h2>Featured</h2>
-  <div style="background-color: #1a1a1a; padding: 20px; border-left: 5px solid #ffa500; box-shadow: 0 2px 5px rgba(255,165,0,0.1);">
-    <p style="font-size: 1.1em; color: #ffcc80;">
-      Read the first 10 pages of my screenplay titled Street Rage: 
-      <a href="scriptStreet_Rage.PDF" target="_blank" style="color: #ffa500; text-decoration: underline;">
-        STREET RAGE by Titan Frey (PDF)
-      </a>
-    </p>
-  </div>
-</section>
+
+  <section>
+    <h2>Featured</h2>
+    <div class="featured-box">
+      <p>Read the first 10 pages of my screenplay titled <strong>Street Rage</strong>:</p>
+      <a href="scriptStreet_Rage.pdf" target="_blank">📄 STREET RAGE by Titan Frey (PDF)</a>
+    </div>
+  </section>
+
   <footer>
     &copy; 2025 Titan Frey. All rights reserved.
   </footer>
 </body>
 </html>
-
